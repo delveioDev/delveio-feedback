@@ -1,0 +1,33 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+title: "[Feature]: "
+labels: ["feature", "triage"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: What area is this for?
+      options:
+        - Website (leaderboard, profile, charts)
+        - Scoring / Rankings
+        - WoW Addon (in-game overlay)
+        - New page or tool
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature
+      description: What do you want to see and why would it be useful?
+    validations:
+      required: true
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples or references
+      description: Links to similar features on other sites, mockups, screenshots, etc.
+    validations:
+      required: false

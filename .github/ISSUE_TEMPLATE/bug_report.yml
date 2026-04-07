@@ -1,0 +1,68 @@
+name: Bug Report
+description: Report a bug with the website, addon, or character sync
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: What area is affected?
+      options:
+        - Website (leaderboard, profile, charts)
+        - Character Sync
+        - WoW Addon (in-game overlay)
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: character
+    attributes:
+      label: Character name and realm (if relevant)
+      placeholder: "e.g. Thrall-Area52"
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug. What did you expect to happen instead?
+      placeholder: "When I clicked sync, nothing happened. I expected my character to update on the leaderboard."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Walk us through how to trigger this bug.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or error messages
+      description: Paste screenshots or copy any error text you saw.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: Browser (if website issue)
+      multiple: true
+      options:
+        - Chrome
+        - Firefox
+        - Safari
+        - Edge
+        - Mobile browser
+        - N/A (addon issue)
+    validations:
+      required: false
