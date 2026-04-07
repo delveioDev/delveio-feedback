@@ -24,7 +24,7 @@ When you sign in and sync a character, we make requests to Blizzard's official B
 
 - Character name, realm, region, faction, race, class, active spec, role, level
 - Per-delve completion counts and highest tier completed
-- A computed delve score (see Scoring below)
+- A computed delve score (see `How Scoring Works` below)
 - Your Battle.net account ID (to link characters to your account)
 - An encrypted refresh token (to enable automatic daily re-syncs)
 
@@ -51,7 +51,7 @@ The score is calculated once when your character syncs and stored in the databas
 
 ## The Addon
 
-The DelveIO WoW addon provides an in-game overlay with delve-related information. More details on installation and usage coming soon.
+The DelveIO WoW addon provides an in-game overlay with delve-related information. See attached photos on the [CurseForge Page](https://www.curseforge.com/wow/addons/delveio).
 
 ## Roadmap
 
