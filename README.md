@@ -41,9 +41,11 @@ When you sign in and sync a character, we make requests to Blizzard's official B
 Your delve score is computed from four components:
 
 - **Tier points**: higher tier completions are worth more points
-- **Breadth bonus**: reward for completing a variety of different delves, not just the same one repeatedly
-- **Volume bonus**: reward for total number of completions across all delves
-- **Nemesis multiplier**: bonus for completing the hardest content (Torment's Rise)
+- **Breadth bonus**: 50 points for each unique Midnight delve cleared
+- **Volume bonus**: 5 points for each total clear across all Midnight delves
+- **Nemesis multiplier**: a percentage bonus on top of your base score for defeating the Nemesis boss in Torment's Rise, scaling with difficulty
+
+Torment's Rise does not count toward the breadth or volume bonuses. It is scored entirely through the nemesis multiplier.
 
 The score is calculated once when your character syncs and stored in the database. The leaderboard sorts by this pre-computed score.
 
@@ -56,6 +58,7 @@ The DelveIO WoW addon provides an in-game overlay with delve-related information
 View planned features and improvements:
 
 - [Open feature requests](../../issues?q=is%3Aissue+is%3Aopen+label%3Afeature)
+- [Open bugs](../../issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 - [Completed features](../../issues?q=is%3Aissue+is%3Aclosed+label%3Afeature)
 
 ## Report a Bug or Request a Feature

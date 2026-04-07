@@ -9,6 +9,7 @@ body:
       label: What area is affected?
       options:
         - Website (leaderboard, profile, charts)
+        - Scoring / Rankings
         - Character Sync
         - WoW Addon (in-game overlay)
         - Other
