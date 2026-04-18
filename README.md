@@ -63,8 +63,9 @@ View planned features and improvements:
 
 ## Report a Bug or Request a Feature
 
-- [Open a new issue](../../issues/new/choose)
+- [Open a new issue](../../issues/new/choose) (public, visible to other players)
 - [View all open issues](../../issues?q=is%3Aissue+is%3Aopen)
+- Email [support@delveio.dev](mailto:support@delveio.dev) (private, direct reply)
 
 ## Links
 
