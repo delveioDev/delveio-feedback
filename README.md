@@ -26,7 +26,7 @@ When you sign in and sync a character, we make requests to Blizzard's official B
 - Per-delve completion counts and highest tier completed
 - A computed delve score (see `How Scoring Works` below)
 - Your Battle.net account ID (to link characters to your account)
-- An encrypted refresh token (to enable automatic daily re-syncs)
+- An OAuth refresh token (to enable automatic daily re-syncs; see the [Privacy Policy](https://www.delveio.dev/privacy) for details on how it is stored)
 
 **What we do NOT store or access:**
 
@@ -67,6 +67,12 @@ View planned features and improvements:
 - [View all open issues](../../issues?q=is%3Aissue+is%3Aopen)
 - Email [support@delveio.dev](mailto:support@delveio.dev) (private, direct reply)
 
+## Privacy and terms
+
+For the full disclosure on what DelveIO collects, how it is used, and your rights regarding your data, see the [Privacy Policy](https://www.delveio.dev/privacy) and [Terms of Service](https://www.delveio.dev/terms).
+
 ## Links
 
 - Website: [delveio.dev](https://www.delveio.dev)
+- Privacy Policy: [delveio.dev/privacy](https://www.delveio.dev/privacy)
+- Terms of Service: [delveio.dev/terms](https://www.delveio.dev/terms)
